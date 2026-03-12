@@ -25,4 +25,11 @@ void input()
     cout << "==========Masukan Elemen Array==============";
     cout << "=============================================" << endl;
 
-   
+    for (int i = 0; i < n; i++)
+    {
+        cout << "Data ke-" << (i + 1) << ": ";
+        cin >> arr[i];
+    }
+}
+
+
